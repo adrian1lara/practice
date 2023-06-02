@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 600px;
+    border: 1px solid black;
+    width: 600px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.cuadro1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.cuadro2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.black-card {
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.red-card {
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;  
+    cursor: pointer;  
+}
+
+.cuadro3 {
+    border: 1px solid black;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+
+}
+
+p {
+    margin: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.result h1 {
+    text-align: center;
+    color: #000;
+}
